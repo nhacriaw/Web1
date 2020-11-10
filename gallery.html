@@ -1,0 +1,125 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/nav.css" rel="stylesheet" type="text/css">
+        <link href="css/gallery.css" rel="stylesheet" type="text/css">
+        <link href="css/animation2.css" rel="stylesheet" type="text/css">
+        <link href="css/resolution.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <link rel="icon" type="image/png" href="image/logo/fevicon.png">
+        <link rel="icon" href="image/logo/fevicon.png" type="image/svg+xml">
+        <link rel="icon" sizes="16x16 24x24 32x32 48x48 64x64" href="image/logo/fevicon.png">
+        <script src="js/gallery.js"></script>
+        <title>GLASSES FOTO | GALLERY</title>
+	</head>
+	<body style="background-color: #F3F3F3;">
+        <div id="container">
+        <header style="background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(image/IMG_3148.jpg); box-shadow: 0 1px 7px;">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo/logo3.png" width="80" height="80">
+                </a>
+            </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="banner-g">
+                <h1>GALLERY</h1>
+                <p>"พื้นที่รวบรวมรูปภาพเเละผลงานของ Glasses foto.<br>เพื่อเป็นหนึ่งในตัวตัดสินใจของลูกค้า"</p>
+            </div>    
+        </header>
+        
+        <div class="main">
+            <div class="main-middle">
+                <h2>Glasses foto's Gallery</h2>
+                <p>"พื้นที่ที่รวบรวมรูปภาพต่างๆ ไว้เพื่อคุณ"</p>
+            </div>
+        </div>
+            
+        <div class="photo">
+            <div class="column">
+                <img src="image/IMG_1149.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_3522.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1555.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1130.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1035.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1608.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1677.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1673.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="image/IMG_1553.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+            </div>
+
+        </div>
+        <div id="myModal" class="modal" style="padding: 0px;">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <img src="image/IMG_1149.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_3522.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1555.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1130.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1035.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1608.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1677.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1673.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <img src="image/IMG_1553.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/NK.Tui" target="_blank"><img src="image/icon/fb_icon_325x325.png" width="20" height="20"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="image/icon/2000px-Instagram_logo_2016.svg.png" width="20" height="20"></a></li>
+                <li><a href="https://line.me/th/" target="_blank"><img src="image/icon/1024px-LINE_logo.svg.png" width="20" height="20"></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><img src="image/icon/twitter-round-logo-png-transparent-background-7-2326.png" width="20" height="20"></a></li>
+                <h4>© Copyright 2018. All Rights Reserved.</h4>
+            </ul>
+        </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,169 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    background-color: #EFEFEF;
+}
+
+
+.banner-s {
+    color: white;
+	font-family: 'Montserrat', 'Athiti', sans-serif;
+	text-align: left;
+    margin-left: 80px;
+    padding-bottom: 160px;
+    padding-top: 160px;
+    text-shadow: 0px 2px 7px black;
+}
+
+.banner-s h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.banner-s p {
+    font-size: 29px;
+    margin-top: 0px;
+}
+
+.main-middle {
+    text-align: center;
+}
+
+.main-middle h2 {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.main-middle p {
+    font-size: 29px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: ;
+}
+
+}
+
+.order2 span {
+    text-decoration: none;
+}
+
+.graduated  {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white; 
+}
+
+.left {
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+    color: black;
+}
+
+.graduated h2  {
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.graduated p  {
+    font-size: 29px;
+    color: black;
+}
+
+.graduated button  {
+    text-decoration: none;
+}
+
+
+
+.profile  {
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #1C1C1C;
+    margin-bottom: 150px;
+}
+
+.right {
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: black;
+}
+
+.profile h2  {
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.profile p  {
+    font-size: 29px;
+    color: white;
+}
+
+
+.button {
+    background-color: black;   
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    transition: 0.5s;
+
+}
+
+.button a {
+    color: white;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+
+.button2 {
+    background-color: white;   
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    transition: 0.5s;
+}
+
+.button2 a {
+    color: black;
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.button2:hover {
+    transform: scale(0.9);
+}
